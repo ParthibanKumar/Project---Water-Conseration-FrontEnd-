@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'dailychart',
   template: `
   <mat-card class="bar2">
-  
+  <h4>Chart</h4>
   <div>
     <div style="display:block">
     <canvas baseChart

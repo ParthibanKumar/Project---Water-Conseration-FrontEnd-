@@ -1,4 +1,35 @@
 
+.acontainer {
+    width:100%;
+     overflow: hidden;
+ }
+ .one {
+    width:50%;
+    float:left;
+    padding: 10px 10px 0 10px;
+ }
+ .two {
+    width:50%;
+    float:right;
+    padding: 10px 10px 0 10px;
+ }
+ .three {
+    width:100%;;
+    float:left;
+    padding: 10px 10px 0 10px;
+ }
+ @media only screen and (max-width: 767px)
+ {
+     .one, .two
+     {
+         display: block; 
+         float: none; 
+         width: 100%;
+     }
+ }
+
+
+
 /* sign in FORM */
 #logreg-forms{
     width:412px;

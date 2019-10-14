@@ -19,7 +19,7 @@
   import {MatCardModule} from '@angular/material/card';
   import { BarChartComponent } from './bar.component';
   import { DoughnutComponent } from './Doughnut.component';
-  import { LineComponent } from './line.component';
+  //import { LineComponent } from './line.component';
   import { CheckboxModule, WavesModule, ButtonsModule, InputsModule, IconsModule, CardsModule } from 'angular-bootstrap-md';
 
 
@@ -29,7 +29,7 @@
   declarations: [
     AppComponent,
     SignUpComponent,LoginComponent,HomePageComponent,
-    BarChartComponent,DoughnutComponent,LineComponent,DailyHoursChartCommponent
+    BarChartComponent,DoughnutComponent,DailyHoursChartCommponent
     
     
   ],

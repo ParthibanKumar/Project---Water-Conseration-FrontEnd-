@@ -1,4 +1,4 @@
-import { LineComponent } from './line.component';
+//import { LineComponent } from './line.component';
 import { BarChartComponent } from './bar.component';
 import { LoginComponent } from './logIn.component';
 import { HomePageComponent } from './homepage.component';
@@ -18,7 +18,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: "barchart", component:BarChartComponent},
   {path: "dough", component: DoughnutComponent},
-  {path: "line", component:LineComponent}
+  //{path: "line", component:LineComponent}
 ];
 
 @NgModule({

@@ -32,12 +32,27 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
           *ngIf="isHandset$ | async">
           <mat-icon aria-label="Side nav toggle icon"></mat-icon>
         </button>
-        <span><h1 >Waater Conservation Project</h1></span>
+        <span><h1 >Water Conservation Project</h1></span>
       </mat-toolbar>
-      <router-outlet></router-outlet>
-    </mat-sidenav-content>
+      </mat-sidenav-content>
+
+
+      <mat-sidenav-content>
+      <div class="acontainer">
+ 
+      
+      <div class="one"><doughnut></doughnut></div>
+      <div class= "two"><barchart></barchart></div>
+      <div class="three"><dailychart> </dailychart></div>
+    
+  </div>
+
+  </mat-sidenav-content>
 </mat-sidenav-container>  
-<barchart></barchart>
+
+
+
+<router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css']
 })

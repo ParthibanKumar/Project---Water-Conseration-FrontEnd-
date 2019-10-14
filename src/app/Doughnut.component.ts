@@ -3,12 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'doughnut',
   template: `
+  <mat-card class="mat1">
+  <h4>Chart</h4>
   <div style="display: block">
   <canvas baseChart
   [data]="doughnutChartData"
   [labels]="doughnutChartLabel"
   [chartType]="doughnutChartType"></canvas>
-  <div>
+  </div>
+  </mat-card>
    `
   
 })
